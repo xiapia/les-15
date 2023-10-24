@@ -1,0 +1,95 @@
+header{
+  background-color:#FFD9F5;
+  padding:5px;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  background-color:#FFD9F5;
+  padding:5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  background-color: #FFFAFE;
+  padding:5px;
+}
+
+div{
+  background-color: aliceblue;
+}
+
+p{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+ul a{
+  text-decoration: none;
+  color:white;
+}
+li{
+  display: inline-block;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-style: double;
+  border-color: white;
+  background-color:#FFA8E8;
+}
+li:hover{
+  background-color:lightskyblue;
+  border-style:dashed;
+}
+
+form{
+  background-color: aliceblue;
+  margin-left:auto;
+  margin-right:auto;
+}
+input[type="text"], input[type="email"], textarea, label, button{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+legend{
+  margin-left:auto;
+  margin-right:auto;
+}
+textarea{
+  height:100px;
+  padding: 5px 4px;
+} 
+button:active{
+  background-color:lightskyblue;
+  color: white;
+  border-radius: 4px; 
+  box-shadow: inset 2px 2px 5px lightskyblue;
+}
+
+
+table{
+  border-collapse: collapse;
+  width:800px;
+  background-color: aliceblue;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td, th{
+  padding: 10px 5px;
+}
